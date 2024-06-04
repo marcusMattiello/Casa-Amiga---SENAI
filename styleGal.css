@@ -1,0 +1,59 @@
+.serv {
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.serv img{
+    max-width: 450px;
+}
+
+.tt {
+padding-top: 15px;
+padding-bottom: 20px;
+color: #bacda9;
+}
+
+#itt{
+color: #f4a45d;
+padding-top: 15px;
+padding-bottom: 0;
+}
+
+#servF{
+padding-bottom: 20px;
+
+}
+
+#gale a:hover{
+            color: white;
+        }
+
+#gale{
+            background-color: #bacda9;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+.serv img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 15px;
+}
+
+.serv .vidTST video{
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+    max-width: 450px;
+
+    display: flex;
+    justify-content: baseline;
+}
+
+.serv .vidTST{
+    max-width: 450px;
+
+    display: flex;
+    align-self: center;
+}

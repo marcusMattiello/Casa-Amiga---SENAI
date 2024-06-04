@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Amiga - Contato</title>
+
+    <link rel="icon" type="image/x-icon" href="Imagens/logo_NObckg.png">
+
+    <link rel="stylesheet" href="styelCtt.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        #ctt a:hover{
+            color: white;
+        }
+
+        #ctt{
+            background-color: #bacda9;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        nav{
+            padding-right: 22px;
+        }
+
+        .afford p{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="Imagens/logo_home.png" alt="">
+        <nav class="head">
+                <div class="pesq" id="home"><a href="index.html">
+                    <div class="backg">
+                        <p>Home</p></a>
+                    </div>
+                </div>
+            <div class="pesq" id="gale"><a href="galeria.html">
+                Galeria</a>
+            </div>
+            <div class="pesq" id="serv"><a href="serv.html">
+                Serviços</a>
+            </div>
+            <div class="pesq" id="blog"><a href="blog.html">
+                <p>Blog</p></a>
+            </div>
+            <div class="pesq" id="dep"><a href="dep.html">
+                <p>Depoimentos</p></a>
+            </div>
+            <div class="pesq" id="ABTus"><a href="abtus.html">
+                <p>Sobre Nós</p></a>
+            </div>
+            <div class="pesq" id="ctt"><a href="ctt.html">
+                Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <h2 class="tt">Entre em Contato Conosco</h2>
+
+    <div class="content">
+        <form>
+            <fieldset>
+                <legend>Informações de Contato</legend>
+
+                    <p>
+                            <label for="inome" class="tst">Nome completo:</label>
+                            <input type="text" name="nome" id="inome">
+                    </p>
+
+                <p>
+                    <label for="email" class="tst">E-mail:</label>
+                    <input type="email" name="email" id="iemail">
+                </p>
+
+                <p>
+                    <label for="tele" class="tst">Telefone:</label>
+                    <input type="text" class="form-control" onkeypress="$(this).mask('(00) 0000-00009')" name="tel" id="itel">
+                </p>
+
+                <p>
+                    <label for="idade" class="tst">Data de nascimento:</label>
+                    <input type="text" class="form-control" onkeypress="$(this).mask('00/00/0000')" name="idade" id="iidade">
+                </p>
+
+                <div class="afford">
+                    <div class="checkbox-wrapper-44">
+                        <label class="toggleButton">
+                          <input type="checkbox">
+                          <div>
+                            <svg viewBox="0 0 44 44">
+                              <path d="M14,24 L21,31 L39.7428882,11.5937758 C35.2809627,6.53125861 30.0333333,4 24,4 C12.95,4 4,12.95 4,24 C4,35.05 12.95,44 24,44 C35.05,44 44,35.05 44,24 C44,19.3 42.5809627,15.1645919 39.7428882,11.5937758" transform="translate(-2.000000, -2.000000)"></path>
+                            </svg>
+                          </div>
+                        </label>
+                      </div>
+
+                      <p class="term">Concorda com os<a href="cttTerm.html" target="_blank">termos de usuário?</a></p>
+                </div>
+            </fieldset>
+
+            <textarea name="message" rows="10" cols="30">O quê você achou de nossa loja? </textarea>
+
+            <button class="button-33" role="button">Enviar</button>
+
+        </form>
+    </div>
+
+    <a href="https://wa.me/+5516981035702" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        
+        <footer>
+            <div class="social">
+                <div class="socA"><a href="https://www.facebook.com/?locale=pt_BR" class="fa fa-facebook" target="_blank"></a></div>
+                <div class="socA"><a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a></div>
+                <div class="socA"><a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google" target="_blank"></a></div>
+                <div class="socA"><a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a></div>
+                <div class="socA"><a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a></div>
+            </div>
+            <p>Casa Amiga-CNPJ:34.567.890/0001-67 Sede-Rua José Medeiros 134-CEP: 06454-000</p>
+            <p>E-mail:support@casaamiga.com - Fone: (11) 91234-5678 (Atendimento telêfonico de segunda a sexta, exeto feriados, das 8h às 17hs)</p>
+            <div class="space1"></div>
+            <p>Sede-Barueri-SP</p>
+            <p>Av Arnaldo Rodrigues Bittencourt - 1115</p>
+            <p>Fone: (11) 91234-5678</p>
+            <p>Atendimento de Segunda a Sexta 8h a 18h</p>
+            <p>(Fechado no Sábado e Domingo)</p>
+            <p class="gp">Desenvolvido pelo grupo: <img src="Imagens/GrupoLogo.png"></p>
+        </footer>
+    
+</body>
+</html>

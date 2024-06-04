@@ -1,0 +1,401 @@
+form{
+    padding-bottom: 15px;
+}
+
+fieldset p{
+    padding-top: 10px;
+
+    padding-bottom: 15px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tt{
+    padding-bottom: 15px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 15px;
+
+    background-color: #cdd5c6;
+    color: rgb(50, 50, 50);
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 10px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+form{
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.data{
+    padding-bottom: 0;
+
+    cursor: pointer;
+}
+
+textarea{
+    display: flex;
+    align-self: center;
+
+    width: 460px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+@font-face {
+  font-family: "Montserrant-Medium";
+  src: url(Montserrat-Medium.otf);
+}
+
+legend, label, form p{
+  font-family: "Montserrant-Medium";
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(Montserrat-Regular.otf);
+}
+
+input, textarea{
+  font-family: "Montserrat-Regular";
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="text"],
+input[type="email"]{
+    padding: 7px;
+
+    box-sizing: border-box;
+    width: 250px;
+}
+
+footer p{
+    padding-bottom: 0;
+
+    display: block;
+}
+
+.tst{
+  display: flex;
+  align-self: flex-start;
+
+  padding-left: 75px;
+}
+
+button{
+    margin-top: 10px;
+
+    margin-left: 40%;
+    margin-right: 40%;
+
+    border-style: none;
+
+    border-radius: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 30px;
+
+    box-sizing: border-box;
+    width: 100px;
+
+    background-color: #d08849;
+}
+
+.button-33 {
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-33:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+  }
+
+  /*Teste botão*/
+
+.afford{
+    display: flex;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    padding-top: 10px;
+}
+
+.afford p{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.term a{
+  padding-left: 5px;
+
+  text-decoration: none;
+  color: #f4a45d;
+}
+
+.term a:hover{
+  color: #bc6b0e;
+}
+
+.checkbox-wrapper-44{
+    width: 44px;
+    height: 44px;
+  }
+  
+  .checkbox-wrapper-44 input[type="checkbox"] {
+    display: none;
+    visibility: hidden;
+  }
+
+  .checkbox-wrapper-44 *,
+  .checkbox-wrapper-44 *::before,
+  .checkbox-wrapper-44 *::after {
+    box-sizing: border-box;
+  }
+
+  .checkbox-wrapper-44 .toggleButton {
+    cursor: pointer;
+    display: block;
+    transform-origin: 50% 50%;
+    transform-style: preserve-3d;
+    transition: transform 0.14s ease;
+  }
+  .checkbox-wrapper-44 .toggleButton:active {
+    transform: rotateX(30deg);
+  }
+  .checkbox-wrapper-44 .toggleButton input + div {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    position: relative;
+    width: 44px;
+    height: 44px;
+  }
+  .checkbox-wrapper-44 .toggleButton input + div svg {
+    fill: none;
+    stroke-width: 3.6;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    width: 44px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    z-index: 1;
+    stroke-dashoffset: 124.6;
+    stroke-dasharray: 0 162.6 133 29.6;
+    transition: all 0.4s ease 0s;
+  }
+  .checkbox-wrapper-44 .toggleButton input + div:before,
+  .checkbox-wrapper-44 .toggleButton input + div:after {
+    content: "";
+    width: 3px;
+    height: 16px;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+  }
+  .checkbox-wrapper-44 .toggleButton input + div:before {
+    opacity: 0;
+    transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    -webkit-animation: bounceInBefore-44 0.3s linear forwards 0.3s;
+            animation: bounceInBefore-44 0.3s linear forwards 0.3s;
+  }
+  .checkbox-wrapper-44 .toggleButton input + div:after {
+    opacity: 0;
+    transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    -webkit-animation: bounceInAfter-44 0.3s linear forwards 0.3s;
+            animation: bounceInAfter-44 0.3s linear forwards 0.3s;
+  }
+  .checkbox-wrapper-44 .toggleButton input:checked + div svg {
+    stroke-dashoffset: 162.6;
+    stroke-dasharray: 0 162.6 28 134.6;
+    transition: all 0.4s ease 0.2s;
+  }
+  .checkbox-wrapper-44 .toggleButton input:checked + div:before {
+    opacity: 0;
+    transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    -webkit-animation: bounceInBeforeDont-44 0.3s linear forwards 0s;
+            animation: bounceInBeforeDont-44 0.3s linear forwards 0s;
+  }
+  .checkbox-wrapper-44 .toggleButton input:checked + div:after {
+    opacity: 0;
+    transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    -webkit-animation: bounceInAfterDont-44 0.3s linear forwards 0s;
+            animation: bounceInAfterDont-44 0.3s linear forwards 0s;
+  }
+
+  @-webkit-keyframes bounceInBefore-44 {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.1) translate(-50%, -50%) rotate(45deg);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0.89) translate(-50%, -50%) rotate(45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(45deg);
+    }
+  }
+
+  @keyframes bounceInBefore-44 {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.1) translate(-50%, -50%) rotate(45deg);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0.89) translate(-50%, -50%) rotate(45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(45deg);
+    }
+  }
+  @-webkit-keyframes bounceInAfter-44 {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.1) translate(-50%, -50%) rotate(-45deg);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0.89) translate(-50%, -50%) rotate(-45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+  @keyframes bounceInAfter-44 {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.1) translate(-50%, -50%) rotate(-45deg);
+    }
+    80% {
+      opacity: 1;
+      transform: scale(0.89) translate(-50%, -50%) rotate(-45deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+  @-webkit-keyframes bounceInBeforeDont-44 {
+    0% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(45deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    }
+  }
+  @keyframes bounceInBeforeDont-44 {
+    0% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(45deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(45deg);
+    }
+  }
+  @-webkit-keyframes bounceInAfterDont-44 {
+    0% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(-45deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+  @keyframes bounceInAfterDont-44 {
+    0% {
+      opacity: 1;
+      transform: scale(1) translate(-50%, -50%) rotate(-45deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.3) translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+
+
+
+
+
+  

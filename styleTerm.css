@@ -1,0 +1,29 @@
+.Geral{
+    padding-top: 15px;
+}
+
+@font-face {
+    font-family: "MTS-Regular";
+    src: url(Montserrat-Regular.otf);
+}
+
+.Geral li{
+font-family: "MTS-Regular";
+}
+
+.textoGeral h3{
+padding-top: 20px;
+
+}
+
+.Intro{
+    padding-bottom: 0;
+}
+
+.tEmail{
+    color: #89b8ef;
+}
+
+.last{
+    padding-bottom: 15px;
+}

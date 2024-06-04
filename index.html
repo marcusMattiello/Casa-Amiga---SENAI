@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Amiga</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" type="image/x-icon" href="Imagens/logo_NObckg.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+    <style>
+        #home a:hover{
+            color: white;
+        }
+
+        #home{
+            background-color: #bacda9;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .banner img{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            border-radius: 15px;
+        }
+
+        /*Teste*/
+        .mySlides {display:none;}
+        </style>
+</head>
+<body>
+
+    <header>
+        <img src="Imagens/logo_home.png">
+        <nav class="head">
+                <div class="pesq" id="home"><a href="index.html">
+                    Home</a>
+                </div>
+            <div class="pesq" id="gale"><a href="galeria.html">
+                Galeria</a>
+            </div>
+            <div class="pesq" id="serv"><a href="serv.html">
+                Serviços</a>
+            </div>
+            <div class="pesq" id="blog"><a href="blog.html">
+                Blog</a>
+            </div>
+            <div class="pesq" id="dep"><a href="dep.html">
+                Depoimentos</a>
+            </div>
+            <div class="pesq" id="ABTus"><a href="abtus.html">
+                Sobre Nós</a>
+            </div>
+            <div class="pesq" id="ctt"><a href="ctt.html">
+                Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div class="w3-content w3-section" style="max-width:1250px;">
+            <img class="mySlides" src="Imagens/banner2.jpeg" style="width:100%">
+            <img class="mySlides" src="Imagens/bannerIMG2.jpeg" style="width:100%">
+            <img class="mySlides" src="Imagens/bannerIMG3.jpeg" style="width:100%">
+          </div>
+    </div>
+      
+      <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2500); // Change image every 2 seconds
+        }
+        </script>
+
+    <div class="desc">
+        <p>Bem-vindo á Casa Amiga, onde sua saúde e bem-estar são a nossa prioridade. Nossa missão é oferecer um atendimento personalizado, proporcionando cuidados de saúde seguro, eficientes e compassivos, garantindo que cada paciente receba o melhor cuidado possível em seu próprio lar.</p>
+        <br>
+        <p>Com a Casa Amiga, você encontra não apenas serviços de saúde de alta qualidade, mas um suporte seguro e dedicado, responsabilizando a tranquilidade e satisfação que você e a sua família merecem.</p>
+    </div>
+
+    <!--
+    <div class="icon">
+        <a href="https://web.whatsapp.com/"><img src="Imagens/wppicon.png"></a>
+    </div>
+    -->
+    <a href="https://wa.me/+5516981035702" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+        </a>
+
+        <footer>
+            <div class="social">
+                <div class="socA"><a href="https://www.facebook.com/?locale=pt_BR" class="fa fa-facebook" target="_blank"></a></div>
+                <div class="socA"><a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a></div>
+                <div class="socA"><a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google" target="_blank"></a></div>
+                <div class="socA"><a href="https://www.youtube.com/" class="fa fa-youtube" target="_blank"></a></div>
+                <div class="socA"><a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a></div>
+            </div>
+            <p>Casa Amiga-CNPJ:34.567.890/0001-67 Sede-Rua José Medeiros 134-CEP: 06454-000</p>
+            <p>E-mail:support@casaamiga.com - Fone: (11) 91234-5678 (Atendimento telêfonico de segunda a sexta, exeto feriados, das 8h às 17hs)</p>
+            <div class="space1"></div>
+            <p>Sede-Barueri-SP</p>
+            <p>Av Arnaldo Rodrigues Bittencourt - 1115</p>
+            <p>Fone: (11) 91234-5678</p>
+            <p>Atendimento de Segunda a Sexta 8h a 18h</p>
+            <p>(Fechado no Sábado e Domingo)</p>
+            <p class="gp">Desenvolvido pelo grupo: <img src="Imagens/GrupoLogo.png"></p>
+        </footer>
+    
+</body>
+</html>

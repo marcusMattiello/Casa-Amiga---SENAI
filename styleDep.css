@@ -1,0 +1,129 @@
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.checked{
+    color: orange;
+}
+
+.depoG{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.depoE p{
+    display: flex;
+
+    justify-content: justify;
+}
+
+.depoG{
+    max-width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: #ffe2c3;
+    border-radius: 25px;
+
+    border: 4px solid #e8d4c6;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    padding-bottom: 25px;
+}
+
+.FAQ details summary{
+    background-color: #ffe2c3;
+    padding: 2%;
+    border-bottom: 4px solid #e8d4c6;
+}
+
+.FAQ details p{
+    text-align: justify;
+    line-height: 26px;
+    padding: 2%;
+    background-color: beige;
+    color: black;
+}
+
+.FAQ details ul li{
+
+background-color: beige;
+display: flex;
+padding-left: 3%;
+}
+
+.FAQ{
+    width: 60%;
+    max-width: 600px;
+
+    border-left: 4px solid #e8d4c6;
+    border-right: 4px solid #e8d4c6;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.FAQ details{
+    font-size: 17px;
+}
+
+#faqI{
+    border-top: 4px solid #e8d4c6;
+}
+
+#faqM{
+    border-bottom: 4px solid #e8d4c6;
+}
+
+.FAQ details summary:hover{
+    background-color: #d1baa2;
+}
+
+.faq{
+    padding-top: 20px;
+}
+
+@font-face {
+    font-family: "MTS-Bold";
+    src: url(Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: "MTS-Regular";
+    src: url(Montserrat-Regular.otf);
+}
+
+.name{
+    font-family: "MTS-Bold";
+}
+
+.depoE{
+    font-family: "MTS-Regular";
+}
+
+summary{
+    font-family: "MTS-Bold";
+}
+
+details p, details ul{
+    font-family: "MTS-Regular";
+}
+
+details li{
+    padding-bottom: 7px;
+}
